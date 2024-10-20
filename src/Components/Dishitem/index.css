@@ -1,0 +1,134 @@
+.ItemContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  border: 1px solid #c4c1b7;
+  border-radius: 10px;
+  height: 210px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .ItemContainer {
+    height: 40vh;
+  }
+}
+.DishContainer {
+  display: flex;
+  align-items: flex-start;
+  width: 50vw;
+  margin-left: 10px;
+  align-self: flex-start;
+  padding: 10px;
+}
+
+@media (max-width: 767px) {
+  .DishContainer {
+    width: 55vw;
+  }
+}
+.IconContent {
+  background-color: #bf0d04;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.isavailablebg {
+  background-color: #1e8709;
+}
+.Icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #bf0d04;
+}
+.isavailablecolor {
+  border: 1px solid #1e8709;
+}
+.DishDetails {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+.DishName {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #000000;
+  margin: 5px;
+  margin-top: 0px;
+}
+.Customizationtext {
+  font-family: 'Roboto';
+  font-size: 15px;
+  cursor: pointer;
+  outline: 0;
+  padding: 10px;
+  color: #0672c4;
+}
+.Notavailable {
+  font-family: 'Roboto';
+  font-size: 15px;
+  cursor: pointer;
+  outline: 0;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 5px;
+  color: #f5020f;
+}
+.Disdescription {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #777877;
+  margin-left: 5px;
+  margin: 5px;
+}
+.ButtonContainer {
+  display: flex;
+  align-items: center;
+  background-color: #105902;
+  border-radius: 20px;
+  width: 120px;
+  justify-content: space-around;
+}
+.Countbutton {
+  border: none;
+  color: #ffffff;
+  font-size: 22px;
+  background: transparent;
+}
+.CountPara {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.Dishprice {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  margin: 5px;
+}
+.Calories {
+  color: #f2ab27;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+}
+.DishImage {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+@media (max-width: 767px) {
+  .DishImage {
+    width: 60px;
+  }
+}

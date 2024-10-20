@@ -1,0 +1,33 @@
+.Tablist {
+  padding: 0px;
+  border-bottom: 1px solid #dcdee0;
+  flex-grow: 1;
+  cursor: pointer;
+  list-style-type: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.activelist {
+  border-bottom: 1px solid #ed7461;
+}
+
+@media (max-width: 767px) {
+  .Tablist {
+    min-width: 50vw;
+    flex-grow: 0;
+  }
+}
+
+.TabName {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  background: transparent;
+}
+
+.activeTabName {
+  color: #ed7461;
+}

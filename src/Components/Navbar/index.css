@@ -1,0 +1,53 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 10px;
+  border-bottom: 1px solid #dcdee0;
+  align-items: center;
+}
+.MainHeading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px;
+}
+.Cart {
+  width: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.CartIcon {
+  position: relative;
+  margin-top: 35px;
+  margin-right: 25px;
+}
+.Count {
+  font-family: 'Roboto';
+  font-size: 15px;
+  background-color: #fa442f;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  position: absolute;
+  margin-left: 20px;
+}
+.Myorder {
+  font-family: 'Roboto';
+  font-size: 15px;
+  display: none;
+}
+@media (min-width: 767px) {
+  .Myorder {
+    display: flex;
+  }
+}
+
+.Carticon {
+  display: flex;
+  align-items: center;
+}

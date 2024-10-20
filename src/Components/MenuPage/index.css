@@ -1,0 +1,32 @@
+.HomeContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+.TabsContainer {
+  display: flex;
+  list-style-type: none;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px;
+}
+
+@media (max-width: 767px) {
+  .TabsContainer {
+    overflow-x: scroll;
+    overflow-anchor: none;
+  }
+}
+
+.DishesContainer {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
